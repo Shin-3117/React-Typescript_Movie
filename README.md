@@ -4,6 +4,9 @@
 ![모달 사진](./reademe_assets/Modal.png)
 TMDB 사이트의 영화 데이터를 Axios로 받고 작업했습니다.
 
+## ⏰ 개발기간
+일시 : 2023.10.17(화) ~ 2023.10.29(일)
+
 ## 🛠 Tech Stack & 개발환경
 <img src="https://img.shields.io/badge/react : 18.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=white">
 <img src="https://img.shields.io/badge/typescript : 4.9.5-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
