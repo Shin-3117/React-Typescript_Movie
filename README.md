@@ -2,6 +2,7 @@
 
 ![홈페이지 사진](./reademe_assets/HomePage.png)
 ![모달 사진](./reademe_assets/Modal.png)
+
 TMDB 사이트의 영화 데이터를 Axios로 받고 작업했습니다.
 
 ## ⏰ 개발기간
