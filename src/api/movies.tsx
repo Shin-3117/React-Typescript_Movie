@@ -2,6 +2,7 @@ import config from "../config/config";
 import axios from 'axios';
 
 const movie_key = config.movie_key
+// const movie_key = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzNGJlNzkyNDhmNjFiOGU2ZGI5NmE4MWNlOTg3ZTYwZSIsInN1YiI6IjY0ZjA0NTRiM2E5OTM3MDExY2JkOTM4ZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ZWN95zCwjdCYKKFpx1yFXOUKk-YSik0rmJGVoWFyQGk'
 /**
  * 
  * @param movieListType ["popular", "top_rated", "upcoming"] 영화리스트 종류
