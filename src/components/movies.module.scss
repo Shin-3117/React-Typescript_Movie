@@ -71,31 +71,13 @@
   align-items: center;
   padding: 8px;
 }
-.btnL{
-    position: fixed;
-    left: 0;
-    background-color: c.$color-3;
-    opacity: 0.5;
-    border: none;
-    height: var(--post-height);
-    z-index: 1;
+
+.modalOpenBtn{
+  padding: 8px;
+  border: 0px;
+  border-radius: 16px;
+  background-color: c.$color-2;
+  color: white;
+  position: absolute;
+  bottom: 10%;
 }
-.btnR{
-    position: sticky;
-    right: 0;
-    background-color: c.$color-3;
-    opacity: 0.5;
-    border: none;
-    height: var(--post-height);
-}
-
-/* 
-display: none;   
-눈에도 안보이고 존재도 없고 크기(공간)도 모두 없음.(전혀 존재하지 않음)
-
-opacity: 0;
-눈에 안보일 뿐 존재와 크기(공간)가 모두 있음.
-
-visibility: hidden;
-눈에 안보이고 존재도 없지만 최초에 가지고 있던 크기(공간)는 유지하고 있음.
-*/

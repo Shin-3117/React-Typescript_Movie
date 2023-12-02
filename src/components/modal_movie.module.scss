@@ -1,13 +1,4 @@
 @use '../style/color.scss' as c;
-.modalOpenBtn{
-    padding: 8px;
-    border: 0px;
-    border-radius: 16px;
-    background-color: c.$color-2;
-    color: white;
-    position: absolute;
-    bottom: 10%;
-}
 
 .modalBackground{
     z-index: 1;
@@ -36,7 +27,8 @@
         padding: 12px;
         position: relative;
         h3{
-            margin-top: 20px;
+            padding: 20px 0px;
+            font-size: larger;
         }
         button{
             position: absolute;
@@ -45,10 +37,12 @@
             background-color: c.$color-2;
             border: 0;
             border-radius: 50%;
+            font-size: larger;
         }
-        .movieInfo1{
+        .movieInfoHeader{
             display: flex;
             justify-content: space-between;
+            padding: 8px 0px;
         }
     }
 }
